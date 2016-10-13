@@ -23,6 +23,9 @@
 .one-fourth h5 {
   font-weight: 600;
 }
+.one-fourth:hover {
+  background-color: grey;
+}
 .one-third {
   display: block;
   float: left;
@@ -36,7 +39,9 @@
 .one-third h5 {
   font-weight: 600;
 }
-
+.one-third:hover {
+  background-color: grey;
+}
 .program-managers {
   text-align: center;
   font-weight: 600;
