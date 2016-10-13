@@ -17,6 +17,9 @@
 .one-fourth h5 {
   font-weight: 600;
 }
+.one-fourth p {
+  text-align:left;
+}
 
 .one-fourth { 
   cursor: pointer;
@@ -68,6 +71,9 @@
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
+.one-third p {
+  text-align:left;
+}
 .one-third { 
   cursor: pointer;
   float: left;
