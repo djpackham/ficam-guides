@@ -21,12 +21,11 @@
   text-align:left;
 }
 
-.one-fourth { 
+.one-fourth {
+  margin-left: 3%;
   cursor: pointer;
-  float: left;
-  width: 25%; 
   text-align: center; 
-  display: block;
+  display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0); 
@@ -75,11 +74,10 @@
   text-align:left;
 }
 .one-third { 
+  margin-left: 3%
   cursor: pointer;
-  float: left;
-  width: 33.3%; 
   text-align: center; 
-  display: block;
+  display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0); 
