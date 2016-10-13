@@ -20,7 +20,9 @@
   width:40px;
   height:40px
 }
-
+.one-fourth h5 {
+  font-weight: 600;
+}
 .one-third {
   display: block;
   float: left;
@@ -31,11 +33,16 @@
   width: 40px;
   height: 40px;
 }
+.one-third h5 {
+  font-weight: 600;
+}
 
 .program-managers {
   text-align: center;
+  font-weight: 600;
 }
 
 .system-engineers {
   text-align: center;
+  font-weight: 600;
 }
