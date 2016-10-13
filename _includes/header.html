@@ -7,7 +7,7 @@
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-fixed-top .navbar-collapse">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-lower .navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -20,10 +20,22 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <!--<li><a href="{{ site.baseurl }}">About Us</a></li>-->
-            <li><a href="https://www.idmanagement.gov/">IDManagement.gov</a></li>
-            <li><a href="http://www.idmanagement.gov/contact-ficam">Contact Us</a></li>
+            <!--<li><a href="/ficam-guides">About Us</a></li>-->
+            <li><a href="https://www.idmanagement.gov/" target="_blank">IDManagement.gov</a></li>
+            <li><a href="http://www.idmanagement.gov/contact-ficam" target="_blank">Contact Us</a></li>
           </ul>
         </div>
       </div>
     </nav>
+
+<nav class="navbar navbar-default navbar-lower" role="navigation" >
+  <div class="container">
+      <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="{{ site.baseurl }}" >HOME</a></li>
+            <li><a href="{{ site.baseurl }}" >PROGRAM MANAGERS</a></li>
+            <li><a href="{{ site.baseurl }}" >SYSTEM ENGINEERS</a></li>
+          </ul>
+        </div>
+    </div>
+</nav>
