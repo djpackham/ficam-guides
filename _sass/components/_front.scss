@@ -14,20 +14,18 @@
   display:block;
   float: left;
   width: 20%;
-  
-  .img {
-    width: 60px;
-    height: 60px;
-  }
+}
+img.one-fourth {
+  width:60px;
+  height:60px
 }
 
 .one-third {
   display: block;
   float: left;
   width: 36.33%;
-    
-  .img {
-    width: 60px;
-    height: 60px;
-  }
+}
+img.one-third {
+  width: 60px;
+  height: 60px;
 }
